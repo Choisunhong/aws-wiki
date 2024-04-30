@@ -131,6 +131,7 @@ function ClassPage() {
           </div>
           {jobs.map((job) => (
             <PostItem
+              key={job.index}
               index={job.index}
               title={job.title}
               writer={job.writer}
