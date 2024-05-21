@@ -12,8 +12,8 @@ spec:
       labels:
         app: sample
     spec:
-      containers:
-      - image: ghcr.io/kmaster8/sample:1.0
+      containers: docker.io/choisunhong5717/argoupdater
+      - image: 
         name: sample
         ports:
         - containerPort: 5000
