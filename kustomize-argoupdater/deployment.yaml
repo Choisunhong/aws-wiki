@@ -12,8 +12,8 @@ spec:
       labels:
         app: sample
     spec:
-      containers: docker.io/choisunhong5717/argoupdater:1.0
-      - image: 
+      containers: 
+      - image: docker.io/choisunhong5717/argoupdater:1.0
         name: sample
         ports:
         - containerPort: 80
